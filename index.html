@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Recepción de CVs</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Recepción de CVs</h1>
+    <form id="cv-form">
+      <label for="nombre">Nombre completo:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" required>
+
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono">
+
+      <label for="archivo">Archivo CV:</label>
+      <input type="file" id="archivo" name="archivo" required>
+
+      <button type="submit">Enviar CV</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
